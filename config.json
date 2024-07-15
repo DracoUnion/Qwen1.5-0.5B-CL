@@ -2,6 +2,11 @@
   "architectures": [
     "Qwen2ForCausalLM"
   ],
+  "auto_map": {
+    "AutoConfig": "configuration_qwen2.Qwen2Config",
+    "AutoModel": "modeling_qwen2.Qwen2ForCL",
+    "AutoModelForSequenceClassification": "modeling_qwen2.Qwen2ForCL"
+  },
   "attention_dropout": 0.0,
   "bos_token_id": 151643,
   "eos_token_id": 151645,
