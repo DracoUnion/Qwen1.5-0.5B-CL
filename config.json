@@ -29,7 +29,7 @@
   "use_cache": true,
   "use_sliding_window": false,
   "vocab_size": 151936,
-  "pooler_type": "cls",
+  "pooler_type": "eos",
   "temp": 0.05,
   "loss_func": "ce"
 }
